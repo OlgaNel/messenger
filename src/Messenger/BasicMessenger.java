@@ -1,8 +1,10 @@
 package Messenger;
 
+import java.util.List;
+
 public abstract class BasicMessenger {
-    String[] users;
-    String[] conversations;
+    List<String> users;
+    List <String> conversations;
     public abstract void addUser(User user);
     public abstract void addConversation(Conversations conversation);
 }
